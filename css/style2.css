@@ -41,6 +41,7 @@ html. body {
     right: 6.5%;
     bottom: 120px;
 }
+
 .level-1 {
     overflow: hidden;
     height: 100%;
@@ -661,6 +662,11 @@ html[xmlns] .slides {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
+
+
+
+
 .black-box .next_level {
     right: 0;
     bottom:-35px;
@@ -728,7 +734,7 @@ html[xmlns] .slides {
         width: auto;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     .text-box1 > p {
         line-height: 20px;
     }
@@ -771,8 +777,23 @@ html[xmlns] .slides {
         padding-left: 5px;
         padding-right: 5px;
     }
+    .flex-control-nav {
+        right: 15px;
+        top: 1px;
+    }
+    .slide1 h2.s1, .slide2 h2.s2, .slide3 h2.s3 {
+        font-size: 20px;
+    }
+    .text-box1 > p, .text-box2 p {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .text-box2 {
+        padding-top: 15px;
+    }
 }
-@media (max-height: 400px) {
+
+@media (max-height: 400px){
     .navbar-brand {
         width: 220px;
     }
@@ -788,8 +809,23 @@ html[xmlns] .slides {
     .black-box p {
         margin-bottom: 2px;
     }
+    .box-outer {
+        padding: 0;
+    }
+    .slide1 h2.s1,.slide2 h2.s2, .slide3 h2.s3 {
+        font-size: 26px;
+    }
+    .text-box1 > p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    .box-outer2 {
+        width: 90%;
+        left: 5px;
+    }
 }
-@media (max-height: 330px) {
+@media (max-height: 330px){
     .navbar-brand {
         width: 220px;
     }
@@ -804,17 +840,30 @@ html[xmlns] .slides {
     }
     .black-box p {
         margin-bottom: 0;
-        font-size: 12px;
+        font-size: 9px;
         line-height: 12px;
     }
     .black-box>div {
         padding-left: 5px;
         padding-right: 5px;
     }
+    .slide1 h2.s1, .slide2 h2.s2, .slide3 h2.s3 {
+        font-size: 21px;
+    }
+    .text-box1 {
+        padding: 10px 10px 10px;
+    }
+    .text-box1 > p,.text-box2 p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .next_level, .flex-direction-nav li {
+        bottom: 90px;
+    }
 }
-@media (max-width: 250px)and (max-height: 330px) {
+@media (max-width: 250px)and (max-height: 330px){
     .navbar-brand {
-        width: 175px;
+        width: 160px;
     }
     .black-box p {
         margin-bottom: 0;
@@ -828,12 +877,26 @@ html[xmlns] .slides {
     .black-box {
         bottom: 0;
     }
-    .next_level {
+    .next_level,.flex-direction-nav li, .flex-direction-nav .prev, .flex-direction-nav .next {
         width: 50px;
         height: 50px;
     }
+    .logo2 {
+        width: 160px;
+    }
+    .flex-direction-nav li {
+        right: 55px;
+    }
+    .box-outer2 {
+        left: -30px;
+        width: 129%;
+    }
+    .text-box1 > p, .text-box2 p {
+        font-size: 10px;
+        line-height: 10px;
+    }
 }
-@media (max-height: 240px) {
+@media (max-height: 240px){
     .navbar-brand {
         width: 175px;
     }
@@ -849,8 +912,32 @@ html[xmlns] .slides {
     .black-box {
         bottom: 0;
     }
-    .next_level {
+    .next_level,.flex-direction-nav li, .flex-direction-nav .prev, .flex-direction-nav .next {
         width: 50px;
         height: 50px;
+    }
+    .box-outer2, .text-box1,  {
+        left: -30px;
+        width: 123%;
+    }
+    .box-outer {
+        position: relative;
+        left: -30px;
+        width: 121%;
+    }
+    .text-box1 > p, .text-box2 p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .slide1 h2.s1, .slide2 h2.s2, .slide3 h2.s3 {
+        font-size: 14px;
+    }
+}
+@media (max-height: 610px){
+    .text-box1 {
+        margin-top: 0;
+    }
+    .text-box2 {
+        margin-top: 0;
     }
 }
