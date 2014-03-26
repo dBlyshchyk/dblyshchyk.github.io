@@ -758,6 +758,12 @@ html[xmlns] .slides {
         font-style: italic;
         margin: 0px 0px;
     }
+    .contact-us .contact-box h4.phone, .contact-box h4.mail, .contact-box h4.twitter {
+        background-position: center top;
+        margin-bottom: 0;
+        padding: 40px 0 0;
+        text-align: center;
+    }
 }
 @media (max-width: 390px) {
     .text-box1 > p {
