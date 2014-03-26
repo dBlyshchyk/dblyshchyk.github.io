@@ -493,9 +493,6 @@ a {
     h2 img {
         width:100%;
     }
-    .box-outer {
-        display:none;
-    }
     .men-1 {
         position:absolute;
         top:100px;
@@ -887,7 +884,8 @@ html[xmlns] .slides {
     .flex-direction-nav li {
         right: 55px;
     }
-    .box-outer2 {
+    .box-outer2, .box-outer {
+        position: relative;
         left: -30px;
         width: 129%;
     }
@@ -916,7 +914,7 @@ html[xmlns] .slides {
         width: 50px;
         height: 50px;
     }
-    .box-outer2, .text-box1,  {
+    .box-outer2, .text-box1 {
         left: -30px;
         width: 123%;
     }
