@@ -764,6 +764,12 @@ html[xmlns] .slides {
         padding: 40px 0 0;
         text-align: center;
     }
+    .contact-us .next_level {
+        bottom: 91px;
+        height: 75px;
+        right: 1%;
+        width: 75px;
+    }
 }
 @media (max-width: 390px) {
     .text-box1 > p {
